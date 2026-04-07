@@ -13,18 +13,24 @@
       <div>
         <h4 class="font-bold mb-6 text-xs tracking-widest text-blue-500 uppercase">Contact</h4>
         <p class="text-gray-400 text-sm mb-2">hello@stepline.com</p>
-        <p class="text-gray-400 text-sm">+62 812 3456 7890</p>
+        <p class="text-gray-400 text-sm">+62 895 3369 43182</p>
       </div>
       <div>
         <h4 class="font-bold mb-6 text-xs tracking-widest text-white uppercase">Alamat</h4>
-        <p class="text-gray-400 text-sm leading-relaxed">SCBD District 8, Prosperity Tower Lantai 22, Jakarta Selatan.</p>
+        <p class="text-gray-400 text-sm leading-relaxed">Perum TNI-AL M6/21, Candi, Sidoarjo, Jawa Timur.</p>
       </div>
       <div>
         <h4 class="font-bold mb-6 text-xs tracking-widest text-red-500 uppercase">Ikuti Kami</h4>
         <div class="flex gap-4">
-          <Facebook class="w-5 h-5 cursor-pointer hover:text-blue-500 transition" />
-          <Instagram class="w-5 h-5 cursor-pointer hover:text-red-500 transition" />
-          <Twitter class="w-5 h-5 cursor-pointer hover:text-blue-400 transition" />
+          <a href="https://facebook.com/ari.samsul.9/" target="_blank" rel="noopener noreferrer">
+            <Facebook class="w-5 h-5 cursor-pointer hover:text-blue-500 transition" />
+          </a>
+          <a href="" target="_blank" rel="noopener noreferrer">
+            <Instagram class="w-5 h-5 cursor-pointer hover:text-red-500 transition" />
+          </a>
+          <a href="">
+            <Twitter class="w-5 h-5 cursor-pointer hover:text-blue-400 transition" />
+          </a>
         </div>
       </div>
     </div>

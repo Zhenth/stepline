@@ -2,14 +2,11 @@
   <section id="home" class="hero-banner relative pt-32 pb-12 overflow-hidden dark:bg-slate-950">
     <div class="container mx-auto px-6 flex flex-col md:flex-row items-center relative z-10">
       <div class="md:w-1/2 z-10 text-center md:text-left mb-12 md:mb-0">
-        <div class="inline-block px-3 py-1 bg-red-600 text-white text-[10px] font-black rounded mb-4 tracking-widest uppercase shadow-lg">
-          Koleksi Eksklusif 2024
-        </div>
         <h1 class="text-5xl md:text-7xl font-extrabold leading-tight mb-6">
           Step into <br><span class="gradient-text">Perfection.</span>
         </h1>
         <p class="text-gray-600 text-lg mb-8 max-w-md mx-auto md:mx-0 font-medium dark:text-gray-400">
-          Katalog premium dengan rincian material yang jujur. Temukan kenyamanan terbaik untuk setiap langkah Anda.
+          Katalog sepatu dengan rincian material yang jujur. Temukan kenyamanan terbaik untuk setiap langkah Anda.
         </p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
           <a href="#catalog" class="gradient-bg text-white px-8 py-4 rounded-xl font-bold text-lg shadow-xl hover:opacity-90 transition transform hover:-translate-y-1 text-center">
