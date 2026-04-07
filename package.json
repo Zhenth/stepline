@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://zhenth.github.io/stepline/",
+  "homepage": "https://Zhenth.github.io/stepline/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
