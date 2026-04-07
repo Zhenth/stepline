@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+.gradient-text {
+    background: linear-gradient(90deg, #2563EB 0%, #71717a 50%, #DC2626 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.gradient-bg {
+    background: linear-gradient(135deg, #1E40AF 0%, #DC2626 100%);
+}
+
+/* Hero Banner */
+.hero-banner {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.95)), url('https://images.unsplash.com/photo-1556906781-9a412961c28c?auto=format&fit=crop&w=1920&q=80');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    transition: background-image 0.5s ease;
+}
+
+.dark .hero-banner {
+    background-image: linear-gradient(rgba(2, 6, 23, 0.9), rgba(2, 6, 23, 0.95)), url('https://images.unsplash.com/photo-1556906781-9a412961c28c?auto=format&fit=crop&w=1920&q=80');
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 6px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+.dark ::-webkit-scrollbar-track {
+    background: #1e293b;
+}
+::-webkit-scrollbar-thumb {
+    background: #2563EB;
+    border-radius: 10px;
+}
+
+/* Hide scrollbar for slider */
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+.no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.angle-btn.active {
+    border-color: #2563EB;
+    background-color: #eff6ff;
+    color: #2563EB;
+}
+.dark .angle-btn.active {
+    background-color: #1e3a8a;
+    color: #bfdbfe;
+}
+
+.dot-indicator {
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.dot-indicator.active {
+    width: 24px;
+    background: #DC2626;
+    border-radius: 10px;
+}
+
+.modal-overlay {
+    backdrop-filter: blur(8px);
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.dark .modal-overlay {
+    background-color: rgba(2, 6, 23, 0.8);
+}
+
+/* Search Animation */
+.search-container input {
+    width: 0;
+    padding: 0;
+    opacity: 0;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.search-container:hover input, .search-container input:focus {
+    width: 240px;
+    padding-left: 1rem;
+    padding-right: 2.5rem;
+    opacity: 1;
+}
+
+/* Hero slider image transition */
+.hero-image-transition {
+    transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out;
+}
